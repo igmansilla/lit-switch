@@ -59,4 +59,5 @@ export class LitSwitch extends LitElement {
   }
 }
 
+
 customElements.define("lit-switch", LitSwitch);

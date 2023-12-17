@@ -10,9 +10,9 @@ import summary from 'rollup-plugin-summary';
 import { terser } from 'rollup-plugin-terser';
 
 export default {
-  input: 'lit-button.js',
+  input: 'lit-switch.js',
   output: {
-    file: 'lit-button.bundled.js',
+    file: 'lit-switch.bundled.js',
     format: 'esm',
   },
   onwarn(warning) {

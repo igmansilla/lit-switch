@@ -1,20 +1,20 @@
 ---
 layout: example.11ty.cjs
-title: <lit-button> ⌲ Examples ⌲ Basic
+title: <lit-switch> ⌲ Examples ⌲ Basic
 tags: example
 name: Basic
 description: A basic example
 ---
 
 <style>
-  lit-button p {
+  lit-switch p {
     border: solid 1px blue;
     padding: 8px;
   }
 </style>
-<lit-button>
+<lit-switch>
   <p>This is child content</p>
-</lit-button>
+</lit-switch>
 
 <h3>CSS</h3>
 
@@ -28,7 +28,7 @@ p {
 <h3>HTML</h3>
 
 ```html
-<lit-button>
+<lit-switch>
   <p>This is child content</p>
-</lit-button>
+</lit-switch>
 ```

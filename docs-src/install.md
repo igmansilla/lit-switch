@@ -1,16 +1,16 @@
 ---
 layout: page.11ty.cjs
-title: <lit-button> ⌲ Install
+title: <lit-switch> ⌲ Install
 ---
 
 # Install
 
-`<lit-button>` is distributed on npm, so you can install it locally or use it via npm CDNs like unpkg.com.
+`<lit-switch>` is distributed on npm, so you can install it locally or use it via npm CDNs like unpkg.com.
 
 ## Local Installation
 
 ```bash
-npm i lit-button
+npm i lit-switch
 ```
 
 ## CDN
@@ -22,11 +22,11 @@ For this element to work from unpkg.com specifically, you need to include the `?
 ### HTML
 
 ```html
-<script type="module" src="https://unpkg.com/lit-button?module"></script>
+<script type="module" src="https://unpkg.com/lit-switch?module"></script>
 ```
 
 ### JavaScript
 
 ```html
-import {LitButton} from 'https://unpkg.com/lit-button?module';
+import {LitSwitch} from 'https://unpkg.com/lit-switch?module';
 ```

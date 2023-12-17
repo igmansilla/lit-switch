@@ -1,4 +1,4 @@
 /node_modules/
 custom-elements.json
 # only generated for size check
-lit-button.bundled.js
+lit-switch.bundled.js
